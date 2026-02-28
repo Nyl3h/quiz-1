@@ -1,110 +1,25 @@
-* { box-sizing: border-box; }
+<h1>Pink Aesthetic Gallery</h1>
 
-body { 
-  margin: 0; 
-  font-family: Arial, sans-serif; 
-}
+<section class="grid">
 
-.header {
-  padding: 16px;
-  border-bottom: 1px solid #ddd;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<div class="card">
+  <img src="https://i.pinimg.com/736x/6c/5c/60/6c5c604f0189e6c7fb679e1ab6f0cd4c.jpg" alt="Pink aesthetic image 1" style="width:100%; border-radius:10px;">
+</div>
 
-.nav a { 
-  margin-left: 16px; 
-  text-decoration: none;
-  color: black;
-}
+<div class="card">
+  <img src="https://i.pinimg.com/736x/fb/32/f3/fb32f37554bad489584cc8768c8dd53b.jpg" alt="Pink aesthetic image 2" style="width:100%; border-radius:10px;">
+</div>
 
-.container { 
-  max-width: 1000px; 
-  margin: 0 auto; 
-  padding: 0 20px;
-}
+<div class="card">
+  <img src="https://i.pinimg.com/1200x/42/d8/25/42d8254c50a09ac11e6fa263d209fc1b.jpg" alt="Pink aesthetic image 3" style="width:100%; border-radius:10px;">
+</div>
 
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 0;
-}
+<div class="card">
+  <img src="https://i.pinimg.com/736x/61/84/bf/6184bf5bfbddb787436091ea11e5f49d.jpg" alt="Pink aesthetic image 4" style="width:100%; border-radius:10px;">
+</div>
 
-.hero-card {
-  width: 240px;
-  padding: 16px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
+<div class="card">
+  <img src="https://i.pinimg.com/736x/5a/fc/e8/5afce87e3ff51bac086d91a1909d8b96.jpg" alt="Pink aesthetic image 5" style="width:100%; border-radius:10px;">
+</div>
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  padding: 20px 0;
-}
-
-.card {
-  border: 1px solid #ddd;
-  padding: 18px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  background-color: #f5f5f5;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 14px;
-  border: 1px solid black;
-  text-decoration: none;
-  margin-top: 10px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: black;
-  color: white;
-}
-
-.footer {
-  padding: 16px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-
-  .header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav {
-    margin-top: 10px;
-  }
-
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-card {
-    margin-top: 20px;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
+</section>
